@@ -1,0 +1,11 @@
+{
+  "model": "big-pickle",
+  "context": [
+    "AGENTS.md",
+    "package.json",
+    "tailwind.config.js",
+    "app.json"
+  ],
+  "autoApprove": ["read", "list"],
+  "requireApproval": ["write", "bash", "delete"]
+}

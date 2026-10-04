@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "SpendShield",
+    "slug": "spendshield",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "spendshield",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#06080F",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.spendshield.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "UIBackgroundModes": ["remote-notification"]
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#06080F",
+          "imageWidth": 180
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#3B82F6"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
